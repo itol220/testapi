@@ -7,5 +7,4 @@ allure-pytest
 pyyaml
 requests
 user-agent
-openpyxl
 pymysql
