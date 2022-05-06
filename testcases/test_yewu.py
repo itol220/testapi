@@ -4,9 +4,9 @@ import pytest, json
 http = HttpHander()
 YmlUt = YmlUtil()
 
-class TestQdcx:
+class TestCaseAUD:
 
-    def get_case_resp(self, yml_name, case_id, case_data, header):
+    def get_case_all(self, yml_name, case_id, case_data, header):
         if case_data["method"] == 'get':
             resp = http.get(url=case_data["url"], headers=header)
             print(resp)
@@ -15,7 +15,7 @@ class TestQdcx:
                 output_key = case_data["output_value"]
                 YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
-        else:
+        elif case_data["method"] == 'post':
             data = case_data["param"]
             if "insert_value" in case_data.keys():
                 insert_value = YmlUt.read_yaml_values("token_head")[case_data["insert_value"]]
@@ -37,6 +37,28 @@ class TestQdcx:
                     print(resp)
                     YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
+        elif case_data["method"] == 'delete':
+            if "insert_value" in case_data.keys():
+                insert_value = YmlUt.read_yaml_values("token_head")[case_data["insert_value"]]
+                print(insert_value)
+                yml_value_in = YmlUt.read_yaml_values(yml_name, {"insert_value": insert_value})
+                case_data_in = YmlUt.get_value(yml_value_in, case_id)
+                print(case_data_in)
+                resp = http.delete(url=case_data_in["url"], headers=header)
+                assert case_data["assert_data"] in resp
+
+            resp = http.delete(url=case_data["url"], headers=header)
+            assert case_data["assert_data"] in resp
+
+        elif case_data["method"] == 'put':
+            file_path = YmlUt.get_file_path(case_data["file_name"])
+            resp = http.put(url=case_data["url"], file_path=file_path, headers=header)
+            assert case_data["assert_data"] in resp
+            if "output_name" in case_data.keys():
+                output_key = case_data["output_value"]
+                YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
+        else:
+            return
 
     @pytest.mark.parametrize('yml_name,case_id', YmlUt.read_yaml_all_tuple("case_"))
     def test_case_all(self, yml_name, case_id):
@@ -45,7 +67,7 @@ class TestQdcx:
             print(header)
             yml_value = YmlUt.read_yaml_values(yml_name)
             case_data = YmlUt.get_value(yml_value, case_id)
-            self.get_case_resp(yml_name, case_id, case_data, header)
+            self.get_case_all(yml_name, case_id, case_data, header)
         except Exception as e:
             print(e)
 

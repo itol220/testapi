@@ -26,8 +26,9 @@ class YmlUtil(GetDictParam):
         tl = []
         for item in yml_names:
             yml_values = self.read_yaml_values(item)
-            vl = [(item, b) for b in yml_values.keys()]
-            tl.extend(vl)
+            if yml_values:
+                vl = [(item, b) for b in yml_values.keys()]
+                tl.extend(vl)
         # print(tl)
         return tl
 
@@ -46,8 +47,9 @@ class YmlUtil(GetDictParam):
         output_dict = {output_name: self.get_value(resp_data, output_key)}
         print(output_dict)
         self.write_yaml(output_dict)
-
-
+    #传入case_photo下一个图片或视频文件的（全名+后缀），返回完整的路径地址
+    def get_file_path(self, file_name):
+        return os.getcwd() + '/case_photo/{}'.format(file_name)
 
 
 

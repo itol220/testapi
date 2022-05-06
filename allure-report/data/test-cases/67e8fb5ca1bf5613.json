@@ -1,0 +1,112 @@
+{
+  "uid" : "67e8fb5ca1bf5613",
+  "name" : "test_case_all[case_data02-case_id001]",
+  "fullName" : "testcases.test_yewu.TestCaseAUD#test_case_all",
+  "historyId" : "a75c7e01b997d96fe16990a7976e69f5",
+  "time" : {
+    "start" : 1651811063790,
+    "stop" : 1651811063841,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1651811063588,
+      "stop" : 1651811063789,
+      "duration" : 201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "782fe4bf72d82337",
+      "name" : "stdout",
+      "source" : "782fe4bf72d82337.txt",
+      "type" : "text/plain",
+      "size" : 277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1651811064607,
+      "stop" : 1651811064607,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_yewu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseAUD"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "671216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_yewu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'case_id001'"
+  }, {
+    "name" : "yml_name",
+    "value" : "'case_data02'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67e8fb5ca1bf5613.json",
+  "parameterValues" : [ "'case_id001'", "'case_data02'" ]
+}

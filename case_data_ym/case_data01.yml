@@ -7,10 +7,8 @@ case_id001:
   output_value: code
 
 case_id002:
-  insert_value: my_data1
-  output_name: my_data2
-  output_value: code
   case_name: 测试平台XX获取
+  insert_value: my_data1
   method: post
   url: Https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
   param: {
@@ -18,6 +16,8 @@ case_id002:
             "index_code": ${insert_value}
   }
   assert_data: '"code":0'
+  output_name: my_data2
+  output_value: code
 case_id003:
   case_name: 测试XXX
   method: post
