@@ -57,6 +57,7 @@ class TestCaseAUD:
             if "output_name" in case_data.keys():
                 output_key = case_data["output_value"]
                 YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
+
         else:
             return
 
