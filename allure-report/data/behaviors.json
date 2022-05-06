@@ -1,14 +1,15 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "test_case_all[case_data02-case_id001]",
-    "uid" : "f74e8215ed11fbf3",
+    "uid" : "56bf75797f8e70db",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424147,
-      "stop" : 1651231424198,
-      "duration" : 51
+      "start" : 1651815094364,
+      "stop" : 1651815094425,
+      "duration" : 61
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +20,13 @@
     "parameters" : [ "'case_id001'", "'case_data02'" ]
   }, {
     "name" : "test_case_all[case_data02-case_id002]",
-    "uid" : "e111069f8f237a22",
+    "uid" : "b7040da394e771a3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424206,
-      "stop" : 1651231424412,
-      "duration" : 206
+      "start" : 1651815094430,
+      "stop" : 1651815094650,
+      "duration" : 220
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +37,13 @@
     "parameters" : [ "'case_id002'", "'case_data02'" ]
   }, {
     "name" : "test_case_all[case_data02-case_id003]",
-    "uid" : "a8a990aae8655801",
+    "uid" : "f063b88515632292",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424417,
-      "stop" : 1651231424469,
-      "duration" : 52
+      "start" : 1651815094655,
+      "stop" : 1651815094714,
+      "duration" : 59
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +54,13 @@
     "parameters" : [ "'case_id003'", "'case_data02'" ]
   }, {
     "name" : "test_case_all[case_data02-case_id004]",
-    "uid" : "a7f056f6c87f9c90",
+    "uid" : "93ecea4b12c1b2cf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424478,
-      "stop" : 1651231424723,
-      "duration" : 245
+      "start" : 1651815094718,
+      "stop" : 1651815094967,
+      "duration" : 249
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,13 +71,13 @@
     "parameters" : [ "'case_id004'", "'case_data02'" ]
   }, {
     "name" : "test_case_all[case_data01-case_id001]",
-    "uid" : "75a498294b6e5125",
+    "uid" : "dd8f8a9ba13ec32d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424731,
-      "stop" : 1651231424783,
-      "duration" : 52
+      "start" : 1651815094973,
+      "stop" : 1651815095028,
+      "duration" : 55
     },
     "flaky" : false,
     "newFailed" : false,
@@ -87,13 +88,13 @@
     "parameters" : [ "'case_id001'", "'case_data01'" ]
   }, {
     "name" : "test_case_all[case_data01-case_id002]",
-    "uid" : "81bf73977be9bdcf",
+    "uid" : "1907f2bc10cee896",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424790,
-      "stop" : 1651231424857,
-      "duration" : 67
+      "start" : 1651815095033,
+      "stop" : 1651815095103,
+      "duration" : 70
     },
     "flaky" : false,
     "newFailed" : false,
@@ -104,13 +105,13 @@
     "parameters" : [ "'case_id002'", "'case_data01'" ]
   }, {
     "name" : "test_case_all[case_data01-case_id003]",
-    "uid" : "42c7b7f7f9bb8fd5",
+    "uid" : "13ab1c39cc2df872",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424863,
-      "stop" : 1651231424916,
-      "duration" : 53
+      "start" : 1651815095108,
+      "stop" : 1651815095164,
+      "duration" : 56
     },
     "flaky" : false,
     "newFailed" : false,
@@ -121,13 +122,13 @@
     "parameters" : [ "'case_id003'", "'case_data01'" ]
   }, {
     "name" : "test_case_all[case_data01-case_id004]",
-    "uid" : "bcefc3816fdec042",
+    "uid" : "a0109729330f32f2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1651231424924,
-      "stop" : 1651231425063,
-      "duration" : 139
+      "start" : 1651815095173,
+      "stop" : 1651815095279,
+      "duration" : 106
     },
     "flaky" : false,
     "newFailed" : false,
@@ -136,6 +137,5 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "'case_id004'", "'case_data01'" ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }

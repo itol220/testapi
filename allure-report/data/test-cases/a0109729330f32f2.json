@@ -1,0 +1,112 @@
+{
+  "uid" : "a0109729330f32f2",
+  "name" : "test_case_all[case_data01-case_id004]",
+  "fullName" : "testcases.test_yeww.TestCaseAUD#test_case_all",
+  "historyId" : "ac802029db6228a75c5f7512d8e92850",
+  "time" : {
+    "start" : 1651815095173,
+    "stop" : 1651815095279,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1651815094082,
+      "stop" : 1651815094362,
+      "duration" : 280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eac7302a64932cdc",
+      "name" : "stdout",
+      "source" : "eac7302a64932cdc.txt",
+      "type" : "text/plain",
+      "size" : 15895
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1651815095282,
+      "stop" : 1651815095282,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_yeww"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseAUD"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "676207-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_yeww"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'case_id004'"
+  }, {
+    "name" : "yml_name",
+    "value" : "'case_data01'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0109729330f32f2.json",
+  "parameterValues" : [ "'case_id004'", "'case_data01'" ]
+}
