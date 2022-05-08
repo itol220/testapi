@@ -9,7 +9,7 @@ YmlUt = YmlUtil()
 @pytest.fixture(scope="class", autouse=True)
 # 作用域-每个方法
 def get_tocken():
-    case_data = YmlUt.read_yaml_values(yml_name="case_data01")["case_id001"]
+    case_data = YmlUt.read_yaml_values(yml_path=YmlUt.read_yaml_paths("token_get")[0])["token_get_data"]
     resp = json.loads(http.get(url=case_data["url"],headers=http.head_data()))
     head_data = {'headers': http.head_data({"token": '{}'.format(resp['code'])})}
     YmlUt.write_yaml(head_data)
