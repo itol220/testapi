@@ -51,7 +51,7 @@ ase_id005:
             "requestPage": 5,
             "index_c23d": ${insert_value}
   }
-  assert_data: '"code":0'
+  assert_data: '"code":054674757'
 case_id006:
   case_name: 用例名称y
   method: get

@@ -23,6 +23,6 @@ case_id004:
   case_name: 用例名称y
   method: get
   url: https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top
-  assert_data: href="//kaola-haitao.oss.kaolacdn.com
+  assert_data: href="//kaola-haitao.oss.kaolacdn.com654647
 
 

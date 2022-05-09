@@ -68,9 +68,6 @@ class TestCaseAUD:
     def test_case_all(self, yml_path, case_id):
         yml_value = YmlUt.read_yaml_values(yml_path)
         case_data = YmlUt.get_value(yml_value, case_id)
-        try:
-            header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths("token_head")[0])["headers"]
-            print(header)
-            self.get_case_all(yml_path, case_id, case_data, header)
-        except Exception as e:
-            print(e)
+        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths("token_head")[0])["headers"]
+        print(header)
+        self.get_case_all(yml_path, case_id, case_data, header)

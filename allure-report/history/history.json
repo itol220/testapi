@@ -9,11 +9,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "649a64bd2bc8d6f5",
+      "uid" : "a8a005b8ff657c62",
       "status" : "passed",
       "time" : {
-        "start" : 1652017469068,
-        "stop" : 1652017469127,
+        "start" : 1652059244284,
+        "stop" : 1652059244343,
         "duration" : 59
       }
     } ]
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "93a7f4d931e2c07c",
+      "uid" : "900e404d87c84239",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468383,
-        "stop" : 1652017468448,
-        "duration" : 65
+        "start" : 1652059243612,
+        "stop" : 1652059243674,
+        "duration" : 62
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1877ff731a64b7bd",
+      "uid" : "3cad3c9eb47bd2db",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468316,
-        "stop" : 1652017468378,
-        "duration" : 62
+        "start" : 1652059243540,
+        "stop" : 1652059243604,
+        "duration" : 64
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8be2b82920823048",
+      "uid" : "49df71603c73a826",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468871,
-        "stop" : 1652017468977,
-        "duration" : 106
+        "start" : 1652059244111,
+        "stop" : 1652059244213,
+        "duration" : 102
       }
     } ]
   },
@@ -85,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a4d71c7249a2c807",
+      "uid" : "8e712f1b512a2a55",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468819,
-        "stop" : 1652017468868,
-        "duration" : 49
+        "start" : 1652059244054,
+        "stop" : 1652059244106,
+        "duration" : 52
       }
     } ]
   },
@@ -104,31 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4aad0f3deb3e29dd",
+      "uid" : "f1e77c924dc8ef55",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468452,
-        "stop" : 1652017468530,
-        "duration" : 78
-      }
-    } ]
-  },
-  "4c87405496902277f8f6f17a3b5a566a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b3a6b2224f08a228",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652017468536,
-        "stop" : 1652017468645,
-        "duration" : 109
+        "start" : 1652059243677,
+        "stop" : 1652059243745,
+        "duration" : 68
       }
     } ]
   },
@@ -142,12 +123,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "db5f937fb9dd9d20",
+      "uid" : "c59d46d8a91eb3d0",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468701,
-        "stop" : 1652017468754,
-        "duration" : 53
+        "start" : 1652059243920,
+        "stop" : 1652059243982,
+        "duration" : 62
+      }
+    } ]
+  },
+  "4c87405496902277f8f6f17a3b5a566a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20009f01eb04442",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652059243751,
+        "stop" : 1652059243857,
+        "duration" : 106
       }
     } ]
   },
@@ -161,31 +161,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73c586b030798acb",
+      "uid" : "25317fec4115e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1652017467775,
-        "stop" : 1652017467841,
-        "duration" : 66
+        "start" : 1652059242818,
+        "stop" : 1652059242883,
+        "duration" : 65
       }
     } ]
   },
   "47b919cc4eb5a7feb7cf5f75f11d2ebc" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66a68ca956c63d2c",
-      "status" : "passed",
+      "uid" : "9e6cda11cd339447",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'",
       "time" : {
-        "start" : 1652017467845,
-        "stop" : 1652017467909,
-        "duration" : 64
+        "start" : 1652059243061,
+        "stop" : 1652059243124,
+        "duration" : 63
       }
     } ]
   },
@@ -199,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fe5ab205b5d46f6",
+      "uid" : "17ca321a96c9da78",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468982,
-        "stop" : 1652017469062,
-        "duration" : 80
+        "start" : 1652059244219,
+        "stop" : 1652059244278,
+        "duration" : 59
       }
     } ]
   },
@@ -218,31 +219,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "114ded77cdcf2622",
+      "uid" : "d21d85eeb4f3fae",
       "status" : "passed",
       "time" : {
-        "start" : 1652017467414,
-        "stop" : 1652017467468,
-        "duration" : 54
-      }
-    } ]
-  },
-  "f60ed56595684e1a0bd8d47ed2c26324" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "def2362088f5e2d1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652017467703,
-        "stop" : 1652017467769,
-        "duration" : 66
+        "start" : 1652059242447,
+        "stop" : 1652059242507,
+        "duration" : 60
       }
     } ]
   },
@@ -256,16 +238,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28c668c6a7cc959a",
+      "uid" : "c077f9a54898c41",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468249,
-        "stop" : 1652017468311,
-        "duration" : 62
+        "start" : 1652059243470,
+        "stop" : 1652059243534,
+        "duration" : 64
       }
     } ]
   },
-  "987f587f9a1cd23842fd5ba81c919510" : {
+  "f60ed56595684e1a0bd8d47ed2c26324" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -275,31 +257,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d2ec6a2be4bf5fb9",
+      "uid" : "ed5dd0dd82127de",
       "status" : "passed",
       "time" : {
-        "start" : 1652017468191,
-        "stop" : 1652017468243,
-        "duration" : 52
-      }
-    } ]
-  },
-  "2af2362d22a8bc0995f0eedc6886b6fe" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a08d24dde787043f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652017468760,
-        "stop" : 1652017468812,
-        "duration" : 52
+        "start" : 1652059242747,
+        "stop" : 1652059242812,
+        "duration" : 65
       }
     } ]
   },
@@ -313,12 +276,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "450f26b2ac07194d",
+      "uid" : "c664274e84db53b2",
       "status" : "passed",
       "time" : {
-        "start" : 1652017467475,
-        "stop" : 1652017467696,
-        "duration" : 221
+        "start" : 1652059242512,
+        "stop" : 1652059242742,
+        "duration" : 230
+      }
+    } ]
+  },
+  "2af2362d22a8bc0995f0eedc6886b6fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17c3e6dd06eca237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652059243990,
+        "stop" : 1652059244047,
+        "duration" : 57
+      }
+    } ]
+  },
+  "987f587f9a1cd23842fd5ba81c919510" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "613f48518f13b182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652059243405,
+        "stop" : 1652059243462,
+        "duration" : 57
       }
     } ]
   },
@@ -332,31 +333,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b12c5dd8663668c9",
+      "uid" : "34eb6ae6a28ffbb7",
       "status" : "passed",
       "time" : {
-        "start" : 1652017469134,
-        "stop" : 1652017469182,
-        "duration" : 48
+        "start" : 1652059244348,
+        "stop" : 1652059244403,
+        "duration" : 55
       }
     } ]
   },
   "a9b6b17cb5cd198ed1b2bbf30ff95e06" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1634036abb382f67",
-      "status" : "passed",
+      "uid" : "a3e92db83a9c79a7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
       "time" : {
-        "start" : 1652017469190,
-        "stop" : 1652017469284,
-        "duration" : 94
+        "start" : 1652059244749,
+        "stop" : 1652059244856,
+        "duration" : 107
       }
     } ]
   },
@@ -370,12 +372,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1318f0c868f25bc5",
+      "uid" : "178cf857e4d08e2c",
       "status" : "passed",
       "time" : {
-        "start" : 1652017467914,
-        "stop" : 1652017468184,
-        "duration" : 270
+        "start" : 1652059243147,
+        "stop" : 1652059243399,
+        "duration" : 252
       }
     } ]
   }

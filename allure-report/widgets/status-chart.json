@@ -1,200 +1,200 @@
 [ {
-  "uid" : "b12c5dd8663668c9",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id003]",
-  "time" : {
-    "start" : 1652017469134,
-    "stop" : 1652017469182,
-    "duration" : 48
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73c586b030798acb",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id004]",
-  "time" : {
-    "start" : 1652017467775,
-    "stop" : 1652017467841,
-    "duration" : 66
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a08d24dde787043f",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id002]",
-  "time" : {
-    "start" : 1652017468760,
-    "stop" : 1652017468812,
-    "duration" : 52
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "649a64bd2bc8d6f5",
+  "uid" : "a8a005b8ff657c62",
   "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id002]",
   "time" : {
-    "start" : 1652017469068,
-    "stop" : 1652017469127,
+    "start" : 1652059244284,
+    "stop" : 1652059244343,
     "duration" : 59
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "def2362088f5e2d1",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id003]",
-  "time" : {
-    "start" : 1652017467703,
-    "stop" : 1652017467769,
-    "duration" : 66
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6fe5ab205b5d46f6",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id001]",
-  "time" : {
-    "start" : 1652017468982,
-    "stop" : 1652017469062,
-    "duration" : 80
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2ec6a2be4bf5fb9",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id001]",
-  "time" : {
-    "start" : 1652017468191,
-    "stop" : 1652017468243,
-    "duration" : 52
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a4d71c7249a2c807",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id003]",
-  "time" : {
-    "start" : 1652017468819,
-    "stop" : 1652017468868,
-    "duration" : 49
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1877ff731a64b7bd",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id003]",
-  "time" : {
-    "start" : 1652017468316,
-    "stop" : 1652017468378,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "450f26b2ac07194d",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id002]",
-  "time" : {
-    "start" : 1652017467475,
-    "stop" : 1652017467696,
-    "duration" : 221
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1634036abb382f67",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-  "time" : {
-    "start" : 1652017469190,
-    "stop" : 1652017469284,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28c668c6a7cc959a",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id002]",
-  "time" : {
-    "start" : 1652017468249,
-    "stop" : 1652017468311,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93a7f4d931e2c07c",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id004]",
-  "time" : {
-    "start" : 1652017468383,
-    "stop" : 1652017468448,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1318f0c868f25bc5",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id006]",
-  "time" : {
-    "start" : 1652017467914,
-    "stop" : 1652017468184,
-    "duration" : 270
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b3a6b2224f08a228",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id006]",
-  "time" : {
-    "start" : 1652017468536,
-    "stop" : 1652017468645,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4aad0f3deb3e29dd",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-ase_id005]",
-  "time" : {
-    "start" : 1652017468452,
-    "stop" : 1652017468530,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66a68ca956c63d2c",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-  "time" : {
-    "start" : 1652017467845,
-    "stop" : 1652017467909,
-    "duration" : 64
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "114ded77cdcf2622",
-  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id001]",
-  "time" : {
-    "start" : 1652017467414,
-    "stop" : 1652017467468,
-    "duration" : 54
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8be2b82920823048",
+  "uid" : "49df71603c73a826",
   "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id004]",
   "time" : {
-    "start" : 1652017468871,
-    "stop" : 1652017468977,
+    "start" : 1652059244111,
+    "stop" : 1652059244213,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17ca321a96c9da78",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id001]",
+  "time" : {
+    "start" : 1652059244219,
+    "stop" : 1652059244278,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6cda11cd339447",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
+  "time" : {
+    "start" : 1652059243061,
+    "stop" : 1652059243124,
+    "duration" : 63
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c664274e84db53b2",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id002]",
+  "time" : {
+    "start" : 1652059242512,
+    "stop" : 1652059242742,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20009f01eb04442",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id006]",
+  "time" : {
+    "start" : 1652059243751,
+    "stop" : 1652059243857,
     "duration" : 106
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "db5f937fb9dd9d20",
+  "uid" : "c59d46d8a91eb3d0",
   "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id001]",
   "time" : {
-    "start" : 1652017468701,
-    "stop" : 1652017468754,
-    "duration" : 53
+    "start" : 1652059243920,
+    "stop" : 1652059243982,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c077f9a54898c41",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id002]",
+  "time" : {
+    "start" : 1652059243470,
+    "stop" : 1652059243534,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e712f1b512a2a55",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id003]",
+  "time" : {
+    "start" : 1652059244054,
+    "stop" : 1652059244106,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "178cf857e4d08e2c",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id006]",
+  "time" : {
+    "start" : 1652059243147,
+    "stop" : 1652059243399,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3e92db83a9c79a7",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
+  "time" : {
+    "start" : 1652059244749,
+    "stop" : 1652059244856,
+    "duration" : 107
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25317fec4115e0ad",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id004]",
+  "time" : {
+    "start" : 1652059242818,
+    "stop" : 1652059242883,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34eb6ae6a28ffbb7",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id003]",
+  "time" : {
+    "start" : 1652059244348,
+    "stop" : 1652059244403,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "613f48518f13b182",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id001]",
+  "time" : {
+    "start" : 1652059243405,
+    "stop" : 1652059243462,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1e77c924dc8ef55",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-ase_id005]",
+  "time" : {
+    "start" : 1652059243677,
+    "stop" : 1652059243745,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c3e6dd06eca237",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id002]",
+  "time" : {
+    "start" : 1652059243990,
+    "stop" : 1652059244047,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed5dd0dd82127de",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id003]",
+  "time" : {
+    "start" : 1652059242747,
+    "stop" : 1652059242812,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "900e404d87c84239",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id004]",
+  "time" : {
+    "start" : 1652059243612,
+    "stop" : 1652059243674,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cad3c9eb47bd2db",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id003]",
+  "time" : {
+    "start" : 1652059243540,
+    "stop" : 1652059243604,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21d85eeb4f3fae",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id001]",
+  "time" : {
+    "start" : 1652059242447,
+    "stop" : 1652059242507,
+    "duration" : 60
   },
   "status" : "passed",
   "severity" : "normal"
