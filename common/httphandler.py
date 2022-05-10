@@ -1,9 +1,8 @@
 from requests import Session
 from user_agent import generate_user_agent
-from common.recursion import GetDictParam
 
+session = Session()
 
-session =Session()
 class HttpHander:
     def head_data(self, data: dict = None):
         head_data = {}
@@ -34,7 +33,7 @@ class HttpHander:
 
     def put(self, url, file_path, headers: dict = None):
         with open(file_path, 'rb') as f_data:
-            resp = session.put(url.url, data=f_data, headers=headers).text
+            resp = session.put(url, data=f_data, headers=headers).text
             return resp
 
     def delete(self, url, headers: dict = None):

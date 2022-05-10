@@ -1,4 +1,4 @@
-import os,string
+import os, string, re
 
 import yaml
 from common.recursion import GetDictParam
@@ -6,7 +6,7 @@ from common.recursion import GetDictParam
 
 class YmlUtil(GetDictParam):
 
-    # 获取自定义“”开头的所有yml文件名，返回一个列表
+    # 获取case_data下自定义“”开头的所有ymlpath+文件名，返回一个列表
     def read_yaml_paths(self, yml_name_base):
         il = [i[0]+"/"+f for i in os.walk(os.getcwd() + '/case_data') for f in i[2]]
         fl = [i.replace(".yml", "") for i in il if yml_name_base in i]
@@ -42,21 +42,34 @@ class YmlUtil(GetDictParam):
         with open(os.getcwd() + '/case_data/token_head.yml', encoding="utf-8", mode="w") as f:
             f.truncate()
 
-    #取临时值并插入case模板
+    # 取临时值并插入case模板
     def insert_value(self, yml_path, case_data):
         insert_value = self.read_yaml_values(self.read_yaml_paths("token_head")[0])[case_data["insert_value"]]
         print(insert_value)
         return self.read_yaml_values(yml_path, {"insert_value": insert_value})
 
-    #输出值写入临时yml
+    # 输出值写入临时yml
     def output_value(self, resp_data, output_name, output_key):
         output_dict = {output_name: self.get_value(resp_data, output_key)}
         print(output_dict)
         self.write_yaml(output_dict)
 
-    #传入case_photo下一个图片或视频文件的（全名+后缀），返回完整的路径地址
+    # 传入case_photo下一个图片或视频文件的（全名+后缀），返回完整的路径地址
     def get_photo_path(self, file_name):
         return os.getcwd() + '/case_photo/{}'.format(file_name)
+
+    # host映射参数test对应host_test.yml,//pre对应host_pre.yml,用以切换服务器
+    def host_map_url(self, case_data, host_map=None, ):
+        if host_map:
+
+            host_v = re.findall(r'https://(.+?)/', case_data["url"])[0]
+            host_name = host_v.replace(".", "-")
+            host_test = self.read_yaml_values(self.read_yaml_paths("host_{}".format(host_map))[0])["hosts"][
+                "{}".format(host_name)]
+            host_url = case_data["url"].replace(host_v, host_test)
+            return host_url
+        return case_data["url"]
+
 
 
 

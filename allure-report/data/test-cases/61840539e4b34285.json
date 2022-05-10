@@ -1,0 +1,138 @@
+{
+  "uid" : "61840539e4b34285",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
+  "fullName" : "testcases.test_single.TestCaseSingle#test_case_all",
+  "historyId" : "a9b6b17cb5cd198ed1b2bbf30ff95e06",
+  "time" : {
+    "start" : 1652160702348,
+    "stop" : 1652160702457,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
+  "statusTrace" : "self = <testcases.test_single.TestCaseSingle object at 0x7f4a6b88c820>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'\ncase_id = 'case_id004'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_single\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0])[\"headers\"]\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0])[\"host_map\"]\n        url_map = YmlUt.host_map_url(case_data, host_map)  # 服务器映射\n        # print(header)\n>       self.get_case_all(case_data, url_map, header)\n\ntestcases/test_single.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_single.TestCaseSingle object at 0x7f4a6b88c820>\ncase_data = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}\nurl_map = 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'\nheader = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:51.0) Gecko/20100101 Firefox/51.0', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, case_data, url_map, header):\n        if case_data[\"method\"] == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n>               assert case_data[\"assert_data\"] in resp\nE               assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\n\ntestcases/test_single.py:14: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1652160702299,
+      "stop" : 1652160702347,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
+    "statusTrace" : "self = <testcases.test_single.TestCaseSingle object at 0x7f4a6b88c820>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'\ncase_id = 'case_id004'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_single\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0])[\"headers\"]\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0])[\"host_map\"]\n        url_map = YmlUt.host_map_url(case_data, host_map)  # 服务器映射\n        # print(header)\n>       self.get_case_all(case_data, url_map, header)\n\ntestcases/test_single.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_single.TestCaseSingle object at 0x7f4a6b88c820>\ncase_data = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}\nurl_map = 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'\nheader = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:51.0) Gecko/20100101 Firefox/51.0', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, case_data, url_map, header):\n        if case_data[\"method\"] == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n>               assert case_data[\"assert_data\"] in resp\nE               assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\n\ntestcases/test_single.py:14: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4880d53f6842018",
+      "name" : "stdout",
+      "source" : "4880d53f6842018.txt",
+      "type" : "text/plain",
+      "size" : 47129
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1652160702464,
+      "stop" : 1652160702464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_single"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSingle"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "2182775-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_single"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'case_id004'"
+  }, {
+    "name" : "yml_path",
+    "value" : "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db571b81572aedf4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
+      "time" : {
+        "start" : 1652160702189,
+        "stop" : 1652160702290,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "d9e0074501e1b0f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
+      "time" : {
+        "start" : 1652160702013,
+        "stop" : 1652160702129,
+        "duration" : 116
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "61840539e4b34285.json",
+  "parameterValues" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
+}

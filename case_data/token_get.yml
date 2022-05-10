@@ -1,4 +1,0 @@
-token_get_data:
-  case_name: cookie/token请求链接
-  method: get
-  url: Https://account.kaola.com/user/ajax/getUserProfile.html

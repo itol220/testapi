@@ -1,12 +1,12 @@
 case_id001:
   case_name: cookie/token请求链接
   method: get
-  url: Https://account.kaola.com/user/ajax/getUserProfile.html
+  url: https://account.kaola.com/user/ajax/getUserProfile.html
   assert_data: '"code":404'
 case_id002:
   case_name: 测试平台XX获取
   method: post
-  url: Https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
+  url: https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
   param: {
            "requestPage": 5
   }
@@ -14,7 +14,7 @@ case_id002:
 case_id003:
   case_name: 测试XXX
   method: post
-  url: Https://gw.kaola.com/gw/multi/personal/getAllowanceInfo?version=1.0
+  url: https://gw.kaola.com/gw/multi/personal/getAllowanceInfo?version=1.0
   param: {
            "clientType": 2
   }

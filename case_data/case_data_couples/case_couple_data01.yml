@@ -1,7 +1,7 @@
 case_id001:
   case_name: cookie/token请求链接
   method: get
-  url: Https://account.kaola.com/user/ajax/getUserProfile.html
+  url: https://account.kaola.com/user/ajax/getUserProfile.html
   assert_data: '"code":404'
   output_name: my_data1
   output_index: code
@@ -10,7 +10,7 @@ case_id002:
   case_name: 测试平台XX获取
   insert_value: my_data1
   method: post
-  url: Https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
+  url: https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
   param: {
             "requestPage": 5,
             "index_code": ${insert_value}
@@ -22,7 +22,7 @@ case_id003:
   case_name: 测试XXX
   insert_value: my_data2
   method: post
-  url: Https://gw.kaola.com/gw/multi/personal/getAllowanceInfo?version=1.0
+  url: https://gw.kaola.com/gw/multi/personal/getAllowanceInfo?version=1.0
   param: {
            "clientType": 2,
            "index_ce333": ${insert_value}
@@ -34,7 +34,7 @@ case_id004:
   case_name: 测试平台XX获取
   insert_value: my_data3
   method: post
-  url: Https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
+  url: https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
   param: {
             "requestPage": 5,
             "index_c23d": ${insert_value}
@@ -46,7 +46,7 @@ ase_id005:
   case_name: 测试平台XX获取
   insert_value: my_data1
   method: post
-  url: Https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
+  url: https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0
   param: {
             "requestPage": 5,
             "index_c23d": ${insert_value}

@@ -1,0 +1,8 @@
+token_get:
+  case_name: cookie/token请求链接
+  method: get
+  url: https://account.kaola.com/user/ajax/getUserProfile.html
+hosts:
+  account-kaola-com: account.kaola.com
+  search-kaola-com: search.kaola.com
+  gw-kaola-com: gw.kaola.com

@@ -1,0 +1,112 @@
+{
+  "uid" : "ca07a3b42514972a",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id002]",
+  "fullName" : "testcases.test_single.TestCaseSingle#test_case_all",
+  "historyId" : "a63606f1e74a94211873673928d068b1",
+  "time" : {
+    "start" : 1652160701897,
+    "stop" : 1652160701949,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1652160701481,
+      "stop" : 1652160701528,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d3fb00aa14621e1",
+      "name" : "stdout",
+      "source" : "5d3fb00aa14621e1.txt",
+      "type" : "text/plain",
+      "size" : 719
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1652160702138,
+      "stop" : 1652160702138,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_single"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSingle"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "2182775-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_single"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'case_id002'"
+  }, {
+    "name" : "yml_path",
+    "value" : "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca07a3b42514972a.json",
+  "parameterValues" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
+}
