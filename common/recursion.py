@@ -19,7 +19,7 @@ class GetDictParam:
                         or self.get_value(my_dict_arr, key) is False:
                     return self.get_value(my_dict_arr, key)
 
-    def list_for_key_to_dict(self, my_dict,*args):
+    def list_for_key_to_dict(self, my_dict, *args):
 
         result = {}
         if len(args) > 0:

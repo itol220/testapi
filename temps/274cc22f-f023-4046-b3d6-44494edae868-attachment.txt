@@ -1,0 +1,5 @@
+{'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}
+0
+{'case_name': '测试XXX', 'insert_value': 'my_data2', 'method': 'post', 'url': 'https://gw.kaola.com/gw/multi/personal/getAllowanceInfo?version=1.0', 'param': {'clientType': 2, 'index_ce333': 0}, 'assert_data': '"code":0', 'output_name': 'my_data3', 'output_index': 'code'}
+{"body":{},"code":0,"msg":"成功"}
+{'my_data3': 0}

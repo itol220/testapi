@@ -1,0 +1,114 @@
+{
+  "uid" : "12d2719631a425fd",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
+  "fullName" : "testcases.test_single.TestCaseSingle#test_case_all",
+  "historyId" : "a9b6b17cb5cd198ed1b2bbf30ff95e06",
+  "time" : {
+    "start" : 1652238411663,
+    "stop" : 1652238411763,
+    "duration" : 100
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\n +  where 'href=\"//kaola-haitao.oss.kaolacdn.com654647' = <built-in method get of dict object at 0x7fccc4088a80>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc4088a80> = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}.get",
+  "statusTrace" : "self = <testcases.test_single.TestCaseSingle object at 0x7fccc40d7190>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'\ncase_id = 'case_id004'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_single\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"headers\")\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"host_map\")\n        url_map = YmlUt.host_map_url(case_data, host_map)  # 服务器映射\n        # print(header)\n>       self.get_case_all(case_data, url_map, header)\n\ntestcases/test_single.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_single.TestCaseSingle object at 0x7fccc40d7190>\ncase_data = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}\nurl_map = 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'\nheader = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; rv:50.0) Gecko/20100101 Firefox/50.0', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, case_data, url_map, header):\n        if case_data.get(\"method\") == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n>               assert case_data.get(\"assert_data\") in resp\nE               assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\nE                +  where 'href=\"//kaola-haitao.oss.kaolacdn.com654647' = <built-in method get of dict object at 0x7fccc4088a80>('assert_data')\nE                +    where <built-in method get of dict object at 0x7fccc4088a80> = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}.get\n\ntestcases/test_single.py:14: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1652238411610,
+      "stop" : 1652238411661,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\n +  where 'href=\"//kaola-haitao.oss.kaolacdn.com654647' = <built-in method get of dict object at 0x7fccc4088a80>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc4088a80> = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}.get",
+    "statusTrace" : "self = <testcases.test_single.TestCaseSingle object at 0x7fccc40d7190>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'\ncase_id = 'case_id004'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_single\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"headers\")\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"host_map\")\n        url_map = YmlUt.host_map_url(case_data, host_map)  # 服务器映射\n        # print(header)\n>       self.get_case_all(case_data, url_map, header)\n\ntestcases/test_single.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_single.TestCaseSingle object at 0x7fccc40d7190>\ncase_data = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}\nurl_map = 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'\nheader = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; rv:50.0) Gecko/20100101 Firefox/50.0', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, case_data, url_map, header):\n        if case_data.get(\"method\") == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n>               assert case_data.get(\"assert_data\") in resp\nE               assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\nE                +  where 'href=\"//kaola-haitao.oss.kaolacdn.com654647' = <built-in method get of dict object at 0x7fccc4088a80>('assert_data')\nE                +    where <built-in method get of dict object at 0x7fccc4088a80> = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}.get\n\ntestcases/test_single.py:14: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0916fb1375ff048",
+      "name" : "stdout",
+      "source" : "d0916fb1375ff048.txt",
+      "type" : "text/plain",
+      "size" : 31427
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1652238411771,
+      "stop" : 1652238411771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_single"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSingle"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "354551-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_single"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'case_id004'"
+  }, {
+    "name" : "yml_path",
+    "value" : "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12d2719631a425fd.json",
+  "parameterValues" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
+}

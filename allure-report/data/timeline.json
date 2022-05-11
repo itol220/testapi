@@ -4,135 +4,16 @@
   "children" : [ {
     "name" : "ubuntunew-Latitude-E7250",
     "children" : [ {
-      "name" : "352429-MainThread",
+      "name" : "354551-MainThread",
       "children" : [ {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-ase_id005]",
-        "uid" : "16a8ab9eabdb572a",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235323736,
-          "stop" : 1652235323812,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id004]",
-        "uid" : "67340311c98a543e",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235323659,
-          "stop" : 1652235323731,
-          "duration" : 72
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-        "uid" : "e3f16cbd17d21430",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652235324531,
-          "stop" : 1652235324637,
-          "duration" : 106
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id004]",
-        "uid" : "608d9399757e702a",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235324211,
-          "stop" : 1652235324322,
-          "duration" : 111
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id001]",
-        "uid" : "f1040a0154d71592",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235323434,
-          "stop" : 1652235323498,
-          "duration" : 64
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id001'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id002]",
-        "uid" : "4b539ed0926f307a",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235324394,
-          "stop" : 1652235324453,
-          "duration" : 59
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-        "uid" : "394f6f05b6a90a65",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652235324881,
-          "stop" : 1652235324990,
-          "duration" : 109
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 2,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
-      }, {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id001]",
-        "uid" : "70e87f83c9ad3c15",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "uid" : "8ff3b7ed578b267a",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235324331,
-          "stop" : 1652235324389,
-          "duration" : 58
+          "start" : 1652238411316,
+          "stop" : 1652238411369,
+          "duration" : 53
         },
         "flaky" : false,
         "newFailed" : false,
@@ -142,14 +23,82 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id001'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id003]",
-        "uid" : "ba20031f506a4142",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id002]",
+        "uid" : "1ba55e38f34f3f1e",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235324155,
-          "stop" : 1652235324207,
-          "duration" : 52
+          "start" : 1652238411375,
+          "stop" : 1652238411433,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id006]",
+        "uid" : "c0262f832e79bdcf",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238410245,
+          "stop" : 1652238410506,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id006'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
+        "uid" : "b28934b826fdb3e9",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652238410172,
+          "stop" : 1652238410232,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id003]",
+        "uid" : "465adf80c1c0bc92",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238411438,
+          "stop" : 1652238411486,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id003]",
+        "uid" : "3e260b8164404093",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238411146,
+          "stop" : 1652238411201,
+          "duration" : 55
         },
         "flaky" : false,
         "newFailed" : false,
@@ -159,14 +108,48 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id004]",
-        "uid" : "fd3d88fe3197f976",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id003]",
+        "uid" : "74dd764d22e99ba2",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235322792,
-          "stop" : 1652235322862,
-          "duration" : 70
+          "start" : 1652238410650,
+          "stop" : 1652238410713,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id004]",
+        "uid" : "470620036e292aee",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238410716,
+          "stop" : 1652238410783,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id004]",
+        "uid" : "1f2f20fca41f40cc",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238409903,
+          "stop" : 1652238409972,
+          "duration" : 69
         },
         "flaky" : false,
         "newFailed" : false,
@@ -176,14 +159,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id002]",
-        "uid" : "5daec64b36a1069e",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-ase_id005]",
+        "uid" : "b8a39f22d8449355",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235324092,
-          "stop" : 1652235324151,
-          "duration" : 59
+          "start" : 1652238410786,
+          "stop" : 1652238410849,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
@@ -191,50 +174,33 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
+        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-        "uid" : "ccadf0d023dab57a",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
+        "uid" : "3cacaeb141fa5cb3",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "failed",
         "time" : {
-          "start" : 1652235322866,
-          "stop" : 1652235322941,
-          "duration" : 75
+          "start" : 1652238411823,
+          "stop" : 1652238411948,
+          "duration" : 125
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 2,
         "retriesStatusChange" : false,
-        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id002]",
-        "uid" : "4f30e09ba95e6203",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235322517,
-          "stop" : 1652235322711,
-          "duration" : 194
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
       }, {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id003]",
-        "uid" : "c13d17c3fe1e7d15",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "uid" : "c53481ebab3a440f",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235322719,
-          "stop" : 1652235322787,
-          "duration" : 68
+          "start" : 1652238409832,
+          "stop" : 1652238409898,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
@@ -244,14 +210,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id006]",
-        "uid" : "f5b8ec48cff31d77",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id002]",
+        "uid" : "bef84a4164d43d36",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235323816,
-          "stop" : 1652235323929,
-          "duration" : 113
+          "start" : 1652238409608,
+          "stop" : 1652238409828,
+          "duration" : 220
         },
         "flaky" : false,
         "newFailed" : false,
@@ -259,15 +225,32 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "'case_id006'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id004]",
+        "uid" : "bca3237404baea9e",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238411207,
+          "stop" : 1652238411310,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
       }, {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-        "uid" : "7d1ab25abc81f481",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "uid" : "5b4709d21b057d01",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "failed",
         "time" : {
-          "start" : 1652235324706,
-          "stop" : 1652235324814,
+          "start" : 1652238411492,
+          "stop" : 1652238411600,
           "duration" : 108
         },
         "flaky" : false,
@@ -278,31 +261,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-        "uid" : "15d31489c12026d0",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652235322977,
-          "stop" : 1652235323043,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id006]",
-        "uid" : "ff20d053aaebd44b",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id002]",
+        "uid" : "a46443e0305214ca",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235323153,
-          "stop" : 1652235323430,
-          "duration" : 277
+          "start" : 1652238410575,
+          "stop" : 1652238410646,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -310,33 +276,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "'case_id006'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id003]",
-        "uid" : "f3397121eced6593",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1652235323581,
-          "stop" : 1652235323653,
-          "duration" : 72
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
       }, {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-case_id001]",
-        "uid" : "4e9e9d473bea702f",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "uid" : "21b13c6b547cd801",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235322449,
-          "stop" : 1652235322511,
-          "duration" : 62
+          "start" : 1652238409539,
+          "stop" : 1652238409604,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
@@ -346,14 +295,65 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id001'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id001]",
-        "uid" : "53486cb96887581",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id002]",
+        "uid" : "d20e9fed9834b2c0",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
         "status" : "passed",
         "time" : {
-          "start" : 1652235323992,
-          "stop" : 1652235324086,
-          "duration" : 94
+          "start" : 1652238411083,
+          "stop" : 1652238411142,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id001]",
+        "uid" : "56bc4128c108e255",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238410513,
+          "stop" : 1652238410570,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id001'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id006]",
+        "uid" : "ac9d4a1c1769c421",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238410852,
+          "stop" : 1652238410958,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id006'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02-case_id001]",
+        "uid" : "e804856b5241298b",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652238411013,
+          "stop" : 1652238411076,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
@@ -363,48 +363,31 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id001'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id003]",
-        "uid" : "1bcb2317870d7fbd",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
+        "uid" : "21067a53ce7a7d92",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "failed",
         "time" : {
-          "start" : 1652235324461,
-          "stop" : 1652235324528,
-          "duration" : 67
+          "start" : 1652238409978,
+          "stop" : 1652238410043,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'case_id003'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
-      }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-        "uid" : "cee3bd3616f12598",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652235323052,
-          "stop" : 1652235323123,
-          "duration" : 71
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 2,
         "retriesStatusChange" : false,
         "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
       }, {
-        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01-case_id002]",
-        "uid" : "72b2de274939b330",
-        "parentUid" : "150ce6917b9d585c61482381c2946cb2",
-        "status" : "passed",
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
+        "uid" : "7ce993c50c6a0dcc",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "failed",
         "time" : {
-          "start" : 1652235323502,
-          "stop" : 1652235323578,
-          "duration" : 76
+          "start" : 1652238410095,
+          "stop" : 1652238410159,
+          "duration" : 64
         },
         "flaky" : false,
         "newFailed" : false,
@@ -412,9 +395,26 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "'case_id002'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data01'" ]
+        "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+      }, {
+        "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
+        "uid" : "12d2719631a425fd",
+        "parentUid" : "35f3ddb099c1f29719b03ccb44f383de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652238411663,
+          "stop" : 1652238411763,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
       } ],
-      "uid" : "150ce6917b9d585c61482381c2946cb2"
+      "uid" : "35f3ddb099c1f29719b03ccb44f383de"
     } ],
     "uid" : "d4f58d281046a57401b6c8cc5fb4fd92"
   } ]

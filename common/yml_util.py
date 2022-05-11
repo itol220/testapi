@@ -48,7 +48,7 @@ class YmlUtil(GetDictParam):
 
     # 取临时值并插入case模板
     def insert_value(self, yml_path, case_data):
-        insert_value = self.read_yaml_values(self.read_yaml_paths("token_head")[0])[case_data["insert_value"]]
+        insert_value = self.read_yaml_values(self.read_yaml_paths("token_head")[0]).get(case_data.get("insert_value"))
         print(insert_value)
         return self.read_yaml_values(yml_path, {"insert_value": insert_value})
 
@@ -66,13 +66,13 @@ class YmlUtil(GetDictParam):
     def host_map_url(self, case_data, host_map=None, ):
         if host_map:
 
-            host_v = re.findall(r'https://(.+?)/', case_data["url"])[0]
+            host_v = re.findall(r'https://(.+?)/', case_data.get("url"))[0]
             host_name = host_v.replace(".", "-")
-            host_test = self.read_yaml_values(self.read_yaml_paths("host_{}".format(host_map))[0])["hosts"][
-                "{}".format(host_name)]
-            host_url = case_data["url"].replace(host_v, host_test)
+            host_test = self.read_yaml_values(self.read_yaml_paths("host_{}".format(host_map))[0]).\
+                get("hosts").get("{}".format(host_name))
+            host_url = case_data.get("url").replace(host_v, host_test)
             return host_url
-        return case_data["url"]
+        return case_data.get("url")
 
 
 

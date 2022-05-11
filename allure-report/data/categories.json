@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'",
+      "name" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'\n +  where '\"code\":054674757' = <built-in method get of dict object at 0x7fccc40d3e00>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc40d3e00> = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}.get",
       "children" : [ {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-        "uid" : "cee3bd3616f12598",
-        "parentUid" : "9865f2d8fbfb4ad51ec24952a70d2763",
+        "uid" : "b28934b826fdb3e9",
+        "parentUid" : "001f39b8a53e40f182d3fda796511b0e",
         "status" : "failed",
         "time" : {
-          "start" : 1652235323052,
-          "stop" : 1652235323123,
-          "duration" : 71
+          "start" : 1652238410172,
+          "stop" : 1652238410232,
+          "duration" : 60
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,18 +23,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
       } ],
-      "uid" : "9865f2d8fbfb4ad51ec24952a70d2763"
+      "uid" : "001f39b8a53e40f182d3fda796511b0e"
     }, {
-      "name" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
+      "name" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'\n +  where 'href=\"//kaola-haitao.oss.kaolacdn.com654647' = <built-in method get of dict object at 0x7fccc410c240>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc410c240> = {'assert_data': 'href=\"//kaola-haitao.oss.kaolacdn.com654647', 'case_name': '用例名称y', 'method': 'get', 'url': 'https://search.kaola.com/search.html?key=%25E4%25B8%2583%25E6%25A0%25BC%25E6%25A0%25BC&searchRefer=suggestion&zn=top'}.get",
       "children" : [ {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-        "uid" : "394f6f05b6a90a65",
-        "parentUid" : "b988807804b077b5f8d00c101c32e392",
+        "uid" : "3cacaeb141fa5cb3",
+        "parentUid" : "106c0b9ee1e7a4817791fffeabbda4dc",
         "status" : "failed",
         "time" : {
-          "start" : 1652235324881,
-          "stop" : 1652235324990,
-          "duration" : 109
+          "start" : 1652238411823,
+          "stop" : 1652238411948,
+          "duration" : 125
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,7 +44,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'case_id004'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01'" ]
       } ],
-      "uid" : "b988807804b077b5f8d00c101c32e392"
+      "uid" : "106c0b9ee1e7a4817791fffeabbda4dc"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

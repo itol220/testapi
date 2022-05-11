@@ -1,0 +1,114 @@
+{
+  "uid" : "7ce993c50c6a0dcc",
+  "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
+  "fullName" : "testcases.test_couple.TestCaseAUD#test_case_all",
+  "historyId" : "47b919cc4eb5a7feb7cf5f75f11d2ebc",
+  "time" : {
+    "start" : 1652238410095,
+    "stop" : 1652238410159,
+    "duration" : 64
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'\n +  where '\"code\":054674757' = <built-in method get of dict object at 0x7fccc4083c80>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc4083c80> = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}.get",
+  "statusTrace" : "self = <testcases.test_couple.TestCaseAUD object at 0x7fccc40a0c10>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'\ncase_id = 'ase_id005'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_couple\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"headers\")\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"host_map\")\n        url_map = YmlUt.host_map_url(case_data, host_map=host_map)  # 服务器映射\n        print(header)\n>       self.get_case_all(yml_path, case_id, case_data, url_map, header)\n\ntestcases/test_couple.py:75: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_couple.TestCaseAUD object at 0x7fccc40a0c10>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'\ncase_id = 'ase_id005'\ncase_data = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}\nurl_map = 'https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0'\nheader = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, yml_path, case_id, case_data, url_map, header):\n        if case_data.get(\"method\") == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n                assert case_data.get(\"assert_data\") in resp\n            if \"output_name\" in case_data.keys():\n                output_key = YmlUt.get_value(case_data, \"output_index\")\n                YmlUt.output_value(json.loads(resp), case_data.get(\"output_name\"), output_key)\n    \n        elif case_data.get(\"method\") == 'post':\n            if \"insert_value\" in case_data.keys():\n                case_data_in = YmlUt.get_value(YmlUt.insert_value(yml_path, case_data), case_id)\n                print(case_data_in)\n                resp = http.post(url=url_map, json=case_data_in.get(\"param\"), headers=header)\n                print(resp)\n                if \"assert_data\" in case_data.keys():\n>                   assert case_data.get(\"assert_data\") in resp\nE                   assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'\nE                    +  where '\"code\":054674757' = <built-in method get of dict object at 0x7fccc4083c80>('assert_data')\nE                    +    where <built-in method get of dict object at 0x7fccc4083c80> = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}.get\n\ntestcases/test_couple.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_tocken",
+    "time" : {
+      "start" : 1652238409269,
+      "stop" : 1652238409538,
+      "duration" : 269
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'\n +  where '\"code\":054674757' = <built-in method get of dict object at 0x7fccc4083c80>('assert_data')\n +    where <built-in method get of dict object at 0x7fccc4083c80> = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}.get",
+    "statusTrace" : "self = <testcases.test_couple.TestCaseAUD object at 0x7fccc40a0c10>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'\ncase_id = 'ase_id005'\n\n    @pytest.mark.parametrize('yml_path,case_id', YmlUt.read_yaml_all_tuple(\"case_couple\"))\n    def test_case_all(self, yml_path, case_id):\n        yml_value = YmlUt.read_yaml_values(yml_path)\n        case_data = YmlUt.get_value(yml_value, case_id)\n        header = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"headers\")\n        host_map = YmlUt.read_yaml_values(YmlUt.read_yaml_paths(\"token_head\")[0]).get(\"host_map\")\n        url_map = YmlUt.host_map_url(case_data, host_map=host_map)  # 服务器映射\n        print(header)\n>       self.get_case_all(yml_path, case_id, case_data, url_map, header)\n\ntestcases/test_couple.py:75: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <testcases.test_couple.TestCaseAUD object at 0x7fccc40a0c10>\nyml_path = '/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'\ncase_id = 'ase_id005'\ncase_data = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}\nurl_map = 'https://gw.kaola.com/gw/marketactivities/nucb/obtainUserRedPackets?version=1.0'\nheader = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}\n\n    def get_case_all(self, yml_path, case_id, case_data, url_map, header):\n        if case_data.get(\"method\") == 'get':\n            resp = http.get(url=url_map, headers=header)\n            print(resp)\n            if \"assert_data\" in case_data.keys():\n                assert case_data.get(\"assert_data\") in resp\n            if \"output_name\" in case_data.keys():\n                output_key = YmlUt.get_value(case_data, \"output_index\")\n                YmlUt.output_value(json.loads(resp), case_data.get(\"output_name\"), output_key)\n    \n        elif case_data.get(\"method\") == 'post':\n            if \"insert_value\" in case_data.keys():\n                case_data_in = YmlUt.get_value(YmlUt.insert_value(yml_path, case_data), case_id)\n                print(case_data_in)\n                resp = http.post(url=url_map, json=case_data_in.get(\"param\"), headers=header)\n                print(resp)\n                if \"assert_data\" in case_data.keys():\n>                   assert case_data.get(\"assert_data\") in resp\nE                   assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'\nE                    +  where '\"code\":054674757' = <built-in method get of dict object at 0x7fccc4083c80>('assert_data')\nE                    +    where <built-in method get of dict object at 0x7fccc4083c80> = {'assert_data': '\"code\":054674757', 'case_name': '测试平台XX获取', 'insert_value': 'my_data1', 'method': 'post', ...}.get\n\ntestcases/test_couple.py:26: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "12e215dfc986e40a",
+      "name" : "stdout",
+      "source" : "12e215dfc986e40a.txt",
+      "type" : "text/plain",
+      "size" : 2370
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_tocken::0",
+    "time" : {
+      "start" : 1652238410959,
+      "stop" : 1652238410959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_couple"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseAUD"
+  }, {
+    "name" : "host",
+    "value" : "ubuntunew-Latitude-E7250"
+  }, {
+    "name" : "thread",
+    "value" : "354551-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_couple"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'ase_id005'"
+  }, {
+    "name" : "yml_path",
+    "value" : "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ce993c50c6a0dcc.json",
+  "parameterValues" : [ "'ase_id005'", "'/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02'" ]
+}
