@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'",
       "children" : [ {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_couples/case_couple_data02-ase_id005]",
-        "uid" : "7ca0465e32613bb5",
+        "uid" : "cee3bd3616f12598",
         "parentUid" : "9865f2d8fbfb4ad51ec24952a70d2763",
         "status" : "failed",
         "time" : {
-          "start" : 1652160700648,
-          "stop" : 1652160700723,
-          "duration" : 75
+          "start" : 1652235323052,
+          "stop" : 1652235323123,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -28,12 +28,12 @@
       "name" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
       "children" : [ {
         "name" : "test_case_all[/home/ubuntunew/PycharmProjects/publicdemo/case_data/case_data_single/case_single_data01-case_id004]",
-        "uid" : "61840539e4b34285",
+        "uid" : "394f6f05b6a90a65",
         "parentUid" : "b988807804b077b5f8d00c101c32e392",
         "status" : "failed",
         "time" : {
-          "start" : 1652160702348,
-          "stop" : 1652160702457,
+          "start" : 1652235324881,
+          "stop" : 1652235324990,
           "duration" : 109
         },
         "flaky" : false,

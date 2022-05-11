@@ -13,7 +13,7 @@ class TestCaseAUD:
             if "assert_data" in case_data.keys():
                 assert case_data["assert_data"] in resp
             if "output_name" in case_data.keys():
-                output_key = case_data["output_index"]
+                output_key = YmlUt.get_value(case_data, "output_index")
                 YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
         elif case_data["method"] == 'post':
@@ -25,7 +25,7 @@ class TestCaseAUD:
                 if "assert_data" in case_data.keys():
                     assert case_data["assert_data"] in resp
                 if "output_name" in case_data.keys():
-                    output_key = case_data["output_index"]
+                    output_key = YmlUt.get_value(case_data, "output_index")
                     YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
             else:
@@ -34,7 +34,7 @@ class TestCaseAUD:
                 if "assert_data" in case_data.keys():
                     assert case_data["assert_data"] in resp
                 if "output_name" in case_data.keys():
-                    output_key = case_data["output_index"]
+                    output_key = YmlUt.get_value(case_data, "output_index")
                     YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
         elif case_data["method"] == 'put':
@@ -44,7 +44,7 @@ class TestCaseAUD:
             if "assert_data" in case_data.keys():
                 assert case_data["assert_data"] in resp
             if "output_name" in case_data.keys():
-                output_key = case_data["output_index"]
+                output_key = YmlUt.get_value(case_data, "output_index")
                 YmlUt.output_value(json.loads(resp), case_data["output_name"], output_key)
 
         elif case_data["method"] == 'delete':

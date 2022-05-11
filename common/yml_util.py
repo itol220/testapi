@@ -32,15 +32,19 @@ class YmlUtil(GetDictParam):
         # print(tl)
         return tl
 
-    # 写入yaml文件，mode=‘a'追加方式
+    # 写入yaml临时文件，mode=‘a'追加方式
     def write_yaml(self, data):
         with open(os.getcwd() + '/case_data/token_head.yml', encoding="utf-8", mode="a") as f:
             yaml.dump(data, stream=f, allow_unicode=True)
 
-    # 清空yaml文件
-    def clear_yaml(self):
-        with open(os.getcwd() + '/case_data/token_head.yml', encoding="utf-8", mode="w") as f:
-            f.truncate()
+    # # 清空yaml文件
+    # def clear_yaml(self):
+    #     with open(os.getcwd() + '/case_data/token_head.yml', encoding="utf-8", mode="w") as f:
+    #         f.truncate()
+
+    # 删除yaml临时文件
+    def remove_yml(self):
+        os.remove(os.getcwd() + '/case_data/token_head.yml')
 
     # 取临时值并插入case模板
     def insert_value(self, yml_path, case_data):

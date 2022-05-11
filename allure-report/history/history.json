@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8d6a7def65208d2d",
+      "uid" : "67340311c98a543e",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701207,
-        "stop" : 1652160701273,
-        "duration" : 66
+        "start" : 1652235323659,
+        "stop" : 1652235323731,
+        "duration" : 72
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca07a3b42514972a",
+      "uid" : "4b539ed0926f307a",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701897,
-        "stop" : 1652160701949,
-        "duration" : 52
+        "start" : 1652235324394,
+        "stop" : 1652235324453,
+        "duration" : 59
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a10895b4e10b2250",
+      "uid" : "608d9399757e702a",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701718,
-        "stop" : 1652160701832,
-        "duration" : 114
+        "start" : 1652235324211,
+        "stop" : 1652235324322,
+        "duration" : 111
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9a112c827d3b407",
+      "uid" : "f3397121eced6593",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701131,
-        "stop" : 1652160701204,
-        "duration" : 73
+        "start" : 1652235323581,
+        "stop" : 1652235323653,
+        "duration" : 72
       }
     } ]
   },
@@ -85,50 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1293d1c2eadc677a",
+      "uid" : "ba20031f506a4142",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701659,
-        "stop" : 1652160701713,
-        "duration" : 54
-      }
-    } ]
-  },
-  "2b9d488cd252d532fd494af69a58662b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c95d929ac63a05e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652160701530,
-        "stop" : 1652160701588,
-        "duration" : 58
-      }
-    } ]
-  },
-  "4fa494c31e811387cc760e6f9b9a7e33" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "96f19343f4c2034b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652160701278,
-        "stop" : 1652160701355,
-        "duration" : 77
+        "start" : 1652235324155,
+        "stop" : 1652235324207,
+        "duration" : 52
       }
     } ]
   },
@@ -142,12 +104,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "89042c3ff86dc454",
+      "uid" : "f5b8ec48cff31d77",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701360,
-        "stop" : 1652160701475,
-        "duration" : 115
+        "start" : 1652235323816,
+        "stop" : 1652235323929,
+        "duration" : 113
+      }
+    } ]
+  },
+  "4fa494c31e811387cc760e6f9b9a7e33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16a8ab9eabdb572a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652235323736,
+        "stop" : 1652235323812,
+        "duration" : 76
+      }
+    } ]
+  },
+  "2b9d488cd252d532fd494af69a58662b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53486cb96887581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652235323992,
+        "stop" : 1652235324086,
+        "duration" : 94
       }
     } ]
   },
@@ -161,12 +161,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b53b2417ef4bfcdc",
+      "uid" : "fd3d88fe3197f976",
       "status" : "passed",
       "time" : {
-        "start" : 1652160700386,
-        "stop" : 1652160700459,
-        "duration" : 73
+        "start" : 1652235322792,
+        "stop" : 1652235322862,
+        "duration" : 70
       }
     } ]
   },
@@ -180,13 +180,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ca0465e32613bb5",
+      "uid" : "cee3bd3616f12598",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '\"code\":054674757' in '{\"body\":{\"privateMarkImg\":\"https://kaola-haitao.oss.kaolacdn.com/b62bca19-74b5-44c5-a1ed-d89e98b5341cT2001192032_680_...77c-4897-bb9e-5237b9200b65T2001192035_180_180.png\",\"titleOrder\":\"下载APP\",\"pcProfit\":\"新人可领10元满减红包\"},\"code\":0,\"msg\":\"成功\"}'",
       "time" : {
-        "start" : 1652160700648,
-        "stop" : 1652160700723,
-        "duration" : 75
+        "start" : 1652235323052,
+        "stop" : 1652235323123,
+        "duration" : 71
       }
     } ]
   },
@@ -200,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f7613a5c8678f87",
+      "uid" : "70e87f83c9ad3c15",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701837,
-        "stop" : 1652160701893,
-        "duration" : 56
+        "start" : 1652235324331,
+        "stop" : 1652235324389,
+        "duration" : 58
       }
     } ]
   },
@@ -219,12 +219,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8ccf77a36d5b71f",
+      "uid" : "4e9e9d473bea702f",
       "status" : "passed",
       "time" : {
-        "start" : 1652160700053,
-        "stop" : 1652160700112,
-        "duration" : 59
+        "start" : 1652235322449,
+        "stop" : 1652235322511,
+        "duration" : 62
       }
     } ]
   },
@@ -238,12 +238,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcc8b28dfcab3c29",
+      "uid" : "c13d17c3fe1e7d15",
       "status" : "passed",
       "time" : {
-        "start" : 1652160700320,
-        "stop" : 1652160700383,
-        "duration" : 63
+        "start" : 1652235322719,
+        "stop" : 1652235322787,
+        "duration" : 68
       }
     } ]
   },
@@ -257,50 +257,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1376c8ff8ec19e6b",
+      "uid" : "72b2de274939b330",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701056,
-        "stop" : 1652160701126,
-        "duration" : 70
-      }
-    } ]
-  },
-  "2af2362d22a8bc0995f0eedc6886b6fe" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fc67823ad0c62d73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652160701592,
-        "stop" : 1652160701655,
-        "duration" : 63
-      }
-    } ]
-  },
-  "987f587f9a1cd23842fd5ba81c919510" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "31baadf3c57b996a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652160700990,
-        "stop" : 1652160701051,
-        "duration" : 61
+        "start" : 1652235323502,
+        "stop" : 1652235323578,
+        "duration" : 76
       }
     } ]
   },
@@ -314,12 +276,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2d7d95968f2f4ae5",
+      "uid" : "4f30e09ba95e6203",
       "status" : "passed",
       "time" : {
-        "start" : 1652160700116,
-        "stop" : 1652160700316,
-        "duration" : 200
+        "start" : 1652235322517,
+        "stop" : 1652235322711,
+        "duration" : 194
+      }
+    } ]
+  },
+  "2af2362d22a8bc0995f0eedc6886b6fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5daec64b36a1069e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652235324092,
+        "stop" : 1652235324151,
+        "duration" : 59
+      }
+    } ]
+  },
+  "987f587f9a1cd23842fd5ba81c919510" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1040a0154d71592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652235323434,
+        "stop" : 1652235323498,
+        "duration" : 64
       }
     } ]
   },
@@ -333,12 +333,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d466df6025588cc4",
+      "uid" : "1bcb2317870d7fbd",
       "status" : "passed",
       "time" : {
-        "start" : 1652160701953,
-        "stop" : 1652160702008,
-        "duration" : 55
+        "start" : 1652235324461,
+        "stop" : 1652235324528,
+        "duration" : 67
       }
     } ]
   },
@@ -352,12 +352,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61840539e4b34285",
+      "uid" : "394f6f05b6a90a65",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 'href=\"//kaola-haitao.oss.kaolacdn.com654647' in '\\r\\n<!DOCTYPE html><html><head><title>登录-考拉海购</title>         <meta charset=\"utf-8\"><link href=\"//kaola-haitao.oss.ka...ype=\"text/javascript\" src=\"//p.kaolacdn.com/public/account-web/login_login.bundle.bfe31fb8.js\"></script></body></html>'",
       "time" : {
-        "start" : 1652160702348,
-        "stop" : 1652160702457,
+        "start" : 1652235324881,
+        "stop" : 1652235324990,
         "duration" : 109
       }
     } ]
@@ -372,12 +372,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7fa02778b8295cf",
+      "uid" : "ff20d053aaebd44b",
       "status" : "passed",
       "time" : {
-        "start" : 1652160700750,
-        "stop" : 1652160700985,
-        "duration" : 235
+        "start" : 1652235323153,
+        "stop" : 1652235323430,
+        "duration" : 277
       }
     } ]
   }

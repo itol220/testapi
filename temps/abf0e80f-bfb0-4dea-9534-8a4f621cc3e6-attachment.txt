@@ -1,4 +1,0 @@
-添加header参数并写入yml
-{'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64; rv:45.0) Gecko/20100101 Firefox/45.0', 'content-type': 'application/json;charset=UTF-8', 'token': '404'}
-{"code":404,"desc":"用户未登录","body":null}
-{'my_data1': 404}

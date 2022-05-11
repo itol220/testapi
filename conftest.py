@@ -17,11 +17,11 @@ def get_tocken():
     resp = json.loads(http.get(url=case_data["url"], headers=http.head_data()))
     head_data = {'headers': http.head_data({"token": '{}'.format(resp['code'])})}
     YmlUt.write_yaml(head_data)
-    print("添加header参数并写入yml")
+    print("添加header参数并写入临时yml")
 
     yield
-    print("清空yml")
-    YmlUt.clear_yaml()
+    print("删除临时yml")
+    YmlUt.remove_yml()
 
 # @pytest.fixture(scope = "module",autouse = True)
 # def execute_database_sql():

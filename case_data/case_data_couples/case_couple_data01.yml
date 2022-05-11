@@ -41,7 +41,7 @@ case_id004:
   }
   assert_data: '"code":0'
   output_name: my_data4
-  output_index: code
+  output_index: privateMarkTitle
 ase_id005:
   case_name: 测试平台XX获取
   insert_value: my_data1
